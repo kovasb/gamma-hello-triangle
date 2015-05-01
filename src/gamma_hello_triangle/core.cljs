@@ -8,7 +8,7 @@
 
 (def vertex-shader {(g/gl-position) (g/vec4 vertex-position 0 1)})
 
-(def fragment-shader {(g/gl-frag-color) (g/vec4 1 0.5 0.5 1)})
+(def fragment-shader {(g/gl-frag-color) (g/vec4 1 0 0 1)})
 
 (def hello-triangle
   (p/program
@@ -20,7 +20,7 @@
         vs  (.createShader gl ggl/VERTEX_SHADER)
         fs  (.createShader gl ggl/FRAGMENT_SHADER)
         pgm (.createProgram gl)
-        xs  (js/Float32Array. #js [0 0.9 0.5 0.4 -1 1])
+        xs  (js/Float32Array. #js [-0.5 -0.5 0.5 -0.5 0 0])
         buf (.createBuffer gl)]
     (doto gl
       (.shaderSource vs (-> hello-triangle :vertex-shader :glsl))
