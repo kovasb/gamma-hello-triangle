@@ -1,5 +1,7 @@
 # gamma-hello-triangle
 
+[![Join the chat at https://gitter.im/kovasb/gamma](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kovasb/gamma?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Sample project for running Hello Triangle example with [gamma](https://github.com/kovasb/gamma)
 
 ## Usage
