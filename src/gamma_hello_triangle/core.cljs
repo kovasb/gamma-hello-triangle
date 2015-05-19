@@ -37,7 +37,3 @@
         2 ggl/FLOAT false 0 0)
       (.useProgram pgm)
       (.drawArrays ggl/TRIANGLES 0 3))))
-
-(comment
-  (main)
-  )
